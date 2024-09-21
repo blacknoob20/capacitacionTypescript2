@@ -1,6 +1,6 @@
-export interface ServerInterface{
-    routes():void
+export interface ServerInterface {
     middlewares(): void
+    routes(): void
     config(): void
-    listen():void
+    listen(): void
 }
